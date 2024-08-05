@@ -1,0 +1,382 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/* stylesheet */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* wrapper */
+.wrapper
+{
+    height: 729px;
+    width: 1536px;
+    background-color: #00ffff;
+}
+
+/* header */
+header
+{
+    height: 80px;
+    width: 1536px;
+    background-color: #000;
+}
+/* 
+.logo
+{
+	float :left;
+	padding-left: 20px;
+
+}
+
+.logo img 
+{
+	padding-left: 80px;
+    padding-top: 25px;
+}
+
+.logo h4
+{
+    margin-top: -25px;
+    padding-left: 140px;
+    color: #fff;
+    word-spacing: 5px;
+    text-transform: uppercase;
+} */
+
+
+/* navbar */
+/* nav
+{
+	float: right;
+	word-spacing: 80px;
+    text-transform: uppercase;
+	padding-right: 100px;
+}
+
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}
+
+li a
+{
+	color: white;
+	text-decoration: none;
+} */
+/* dropdown */
+
+/* section */
+section
+{
+    height: 589px;
+    width: 1536px;
+    background-color: #808080;
+}
+
+section .sec_img
+{
+	height: 589px;
+    width: auto;
+	margin-top: 0px;
+	background-image: url("images/1.jpg");
+}
+.box
+{
+	height: 300px;
+	width: 450px;
+	background-color: #030002;
+	margin: 70px auto;
+	opacity: .6;
+	color: white;
+}
+
+/* footer */
+footer
+{
+    height: 60px;
+    width: 1536px;
+    background-color: #000;
+}
+
+h3, .social, p
+{
+    padding-top: 5px;
+}
+
+
+/*--------------------------------login-----------------------------*/
+
+.login_img
+{
+	height: 589px;
+    width: auto;
+	margin-top: 0px;
+	background-image: url("images/3.jpg");
+}
+.box3
+{
+	height: 450px;
+	width: 450px;
+	background-color: black;
+	margin: 70px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+form .login
+{
+	margin: auto 50px;
+}
+input
+{
+	height: 25px;
+	width: 300px;
+
+}
+/*------------------------------registration--------------------*/
+.reg_img
+{
+	height: 589px;
+    width: auto;
+	margin-top: 0px;
+	background-image: url("images/4.png");
+}
+.box4
+{
+	height: 589px;
+	width: 450px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+
+/*------------------------------about--------------------*/
+.about_img
+{
+	height: 589px;
+    width: auto;
+	margin-top: 0px;
+	background-image: url("images/about.jpg");
+	background-repeat: no-repeat;
+}
+.box2
+{
+	height: 389px;
+	width: 650px;
+	background-color: #000;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+
+cite
+{
+	float: right;
+	padding-right: 100px;
+	font: inherit;
+	font-size: larger;
+}
+
+/*------------------------------books--------------------*/
+.book_img
+{
+	height: 589px;
+    width: auto;
+	margin-top: 0px;
+	background-image: url("images/books.jpg");
+	background-repeat: no-repeat;
+	z-index: 0.1;
+}
+  
+.books-section-header 
+{
+font-size: 35px;
+max-width: 1186px;
+text-align: center;
+margin: 0 auto 6rem auto;
+border-bottom: 0.2rem solid #fff;
+background-color: #808080;
+}
+
+.books-grid 
+{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+grid-gap: 40px;
+width: 100%;
+max-width: 1280px;
+margin: 0 auto;
+margin-bottom: 60px;
+margin-top: -50px;
+}
+
+.book 
+{
+background: #808080;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+border-radius: 2px;
+}
+
+.book-tile 
+{
+	height: 200px;
+	width: 300px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+.book-image 
+{
+height: 150px;
+width: 300px;
+object-fit: cover;
+}
+
+.book-title 
+{
+font-size: 20px;
+padding: 20px 5px;
+color: #fff;
+margin-top: -10px;
+}
+
+
+/*------------------------------feedback--------------------*/
+.feed_img
+{
+	height: 589px;
+    width: auto;
+	margin-top: 0px;
+	background-image: url("images/feed.jpg");
+}
+.box5
+{
+	height: 489px;
+	width: 1136px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+
+/*------------------------------contact--------------------*/
+.contact_img
+{
+	height: 589px;
+    width: auto;
+	margin-top: 0px;
+    background-color: darkkhaki;
+}
+
+.container
+{
+	height: 489px;
+	width: 736px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
